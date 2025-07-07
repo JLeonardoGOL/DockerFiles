@@ -1,3 +1,30 @@
-# RESUMEN
+# Ubuntu Dev Container
 
-### Se genera el siguiente contenedor para ejecutar la distribucion de linux con ubuntu.
+Este contenedor Docker está basado en Ubuntu y está diseñado para servir como un entorno base de desarrollo, ideal para construir y ejecutar aplicaciones de todo tipo (web, CLI, etc.). Puedes extenderlo fácilmente con herramientas como `git`, `curl`, `build-essential`, servidores web, lenguajes de programación, y más.
+
+---
+
+## 🐧 Base
+
+- Imagen base: `ubuntu:latest`
+- Sistema: Ubuntu Linux
+- Modo: Interactivo o en segundo plano
+
+---
+
+## 📦 Características
+
+- Sistema operativo Ubuntu listo para desarrollo.
+- Fácil de extender para incluir herramientas de desarrollo.
+- Acceso por consola (`bash`) para uso interactivo.
+- Puedes instalar manualmente lenguajes como Python, Node.js, Java, PHP, etc.
+
+---
+
+## 🛠 Instalación
+
+### 1. Clona este repositorio (si aplica)
+
+```bash
+git clone git@github.com:JLeonardoGOL/DockerFiles.git
+cd ubuntu
